@@ -28,3 +28,8 @@ Welcome to **TeleEats**, a food delivery mini application! Follow the instructio
 4. After Installation You will See 'node_modules' Folder in the Sidebar
 5. After that type `npm run dev` in terminal
 6. Now Your Project Will Start In Your Default Web Browser
+
+## Deployed Applications
+1. Web Application: https://tele-eats-frontend.onrender.com/
+2. Admin Web Application: https://tele-eats-frontend.onrender.com/
+3. Telegram Mini App: https://t.me/teleeatsbot

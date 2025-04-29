@@ -14,6 +14,10 @@
     gap: 20px;
 }
 
+.sidebar-options img{
+    width: 35px;
+}
+
 .sidebar-option{
     display: flex;
     align-items: center;

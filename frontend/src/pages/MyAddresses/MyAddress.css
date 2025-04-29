@@ -1,0 +1,182 @@
+.my-addresses {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;  
+  }
+  
+  .add-address-button {
+    display: block;
+    width: 100%;
+    background-color: #F44336; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 30px; 
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-address-button:hover {
+    background-color: #D32F2F;  
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;  
+  }
+  
+  .my-addresses-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;  
+  }
+  
+  .my-addresses-item p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;  
+  }
+  
+  .track-button, .delete-button {
+    background-color: #F44336; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .track-button:hover, .delete-button:hover {
+    background-color: #D32F2F;  
+  }
+  
+  .delete-button {
+    background-color: #F44336; 
+  }
+  
+  .delete-button:hover {
+    background-color: #D32F2F;  
+  }
+  
+  .edit-address-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;  
+  }
+  
+  .edit-address-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .edit-address-form button {
+    background-color: #F44336; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;  
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-address-form button:hover {
+    background-color: #D32F2F; 
+  }
+  
+  .edit-address-form button.cancel {
+    background-color: #E57373; 
+  }
+  
+  .edit-address-form button.cancel:hover {
+    background-color: #EF5350;  
+  }
+  
+  .edit-address-form .button-container {
+    display: flex;
+    justify-content: space-between;  
+    gap: 10px;  
+  }
+  
+  .edit-address-form .button-container button {
+    width: 48%; 
+  }
+
+  @media (max-width: 768px) {
+    .my-addresses {
+      padding: 15px;  /* Reduce padding for smaller screens */
+    }
+  
+    .add-address-button {
+      margin-bottom: 20px;  /* Adjust space between Add Address button and the list */
+    }
+  
+    .edit-address-form {
+      margin-top: 20px;  /* Reduce space above the form */
+    }
+  
+    .edit-address-form .button-container {
+      flex-direction: column;  /* Stack buttons vertically */
+      gap: 15px;  /* Space between buttons */
+    }
+  
+    .edit-address-form .button-container button {
+      width: 100%;  /* Make buttons full width */
+    }
+  
+    .my-addresses-item {
+      padding: 12px;  /* Reduce padding in address items for smaller screens */
+    }
+  
+    .my-addresses-item p {
+      font-size: 14px;  /* Smaller text on mobile */
+    }
+  
+    .track-button, .delete-button {
+      width: 100%;  /* Make buttons full width */
+      margin-top: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .my-addresses {
+      padding: 10px;  /* Even more compact on smaller devices */
+    }
+  
+    .my-addresses-item {
+      padding: 10px;  /* Further reduce padding */
+    }
+  
+    .edit-address-form input {
+      font-size: 14px;  /* Smaller input text */
+    }
+  
+    .edit-address-form button {
+      font-size: 14px;  /* Smaller button text */
+      padding: 10px 15px;  /* Smaller button padding */
+    }
+  }

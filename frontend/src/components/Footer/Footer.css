@@ -39,7 +39,22 @@
 .footer-social-icons img {
     width: 40px;
     margin-right: 15px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
+
+.footer-social-icons a {
+    display: inline-block;
+}
+
+.footer-social-icons img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.footer-social-icons a:active img {
+    transform: scale(0.9);
+}
+
 
 .footer hr{
     width: 100%;

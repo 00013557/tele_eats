@@ -2,59 +2,29 @@
 
 Welcome to **TeleEats**, a food delivery mini application! Follow the instructions below to set up and run the project on your local machine.
 
-## **How to Run Project**
+# How to Setup & Run this Project
 
-Follow the steps below to set up and run the project manually.
+### Install NodeJs (Ignore If Already Installed)
+1. Visit the official Node.js website: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+2. Download the Node.js installer
+3. Run the installer
+4. Follow the prompts in the installer
 
----
+> **IMPORTANT:** First Run Backend then Frontend & Admin
 
-### **❖ Install Node.js** *(Ignore if already installed*)
-Wait for the installation to complete. (Note: requires internet access).
+## Setup Instructions
 
-Once the installation is complete, you can run the backend server by using the following command:
+### Steps To Setup Backend Of The Project
+1. Open Project Folder In VS Code
+2. Open Integrated Terminal
+   - Right Click on Sidebar > Select "Open In Integrated Terminal"
+3. Type `npm install` and press Enter and Wait for Installation to be completed (requires Internet)
 
-bash
-npm start
-Your backend should now be running.
-
-❖ Steps to Run Frontend & Admin Panel of the Project
-1. Setup Frontend & Admin Panel
-Open the TeleEats project folder in VS Code.
-
-Open the Integrated Terminal in the project directory:
-
-Right-click on the sidebar in VS Code.
-
-Select "Open in Integrated Terminal".
-
-In the terminal, type the following command to install dependencies for the frontend and admin panel:
-
-bash
-npm install
-Wait for the installation to complete. (Note: requires internet access).
-
-After installation, you will see the 'node_modules' folder in the sidebar.
-
-2. Running the Frontend & Admin Panel
-In the terminal, type the following command to start the development server:
-
-bash
-npm run dev
-After running the command, your project will start automatically in your default web browser.
-
-Additional Information
-Backend runs on Node.js, and the API communicates with the MongoDB database.
-
-Frontend is built with React and served using Vite for fast development.
-
-Admin Panel allows managing user orders, adding food items, etc.
-
-Common Errors and Troubleshooting
-Error: "Could not find module..."
-Solution: Ensure that all dependencies are installed by running npm install in both backend and frontend/admin directories.
-
-Error: "Port 4000 is already in use"
-Solution: You can either stop the process using the port or modify the port in the .env file.
-
-Thank you for using TeleEats! If you encounter any issues, feel free to reach out or refer to the official documentation.
-
+### Steps To Run Frontend & Admin Panel Of The Project
+1. Open Project Folder In VS Code
+2. Open Integrated Terminal in project directory
+   - Right Click on Sidebar > Select "Open In Integrated Terminal"
+3. Type `npm install` and press Enter and Wait for Installation to be completed (requires Internet)
+4. After Installation You will See 'node_modules' Folder in the Sidebar
+5. After that type `npm run dev` in terminal
+6. Now Your Project Will Start In Your Default Web Browser
